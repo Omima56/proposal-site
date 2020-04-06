@@ -1,0 +1,130 @@
+ /*mobile and tablet screen*/
+@media(max-width:767px){
+/*start navbar*/
+    .navbar-brand {
+        float: right;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .navbar-left {
+        float: left !important;
+    }
+    .navbar-nav {
+        margin-top: 10px;
+
+    }
+    .navbar-nav > li {
+        float: left;
+    }
+    /*end navbar*/
+  /*start section title*/
+   .title h3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .title p{
+    
+        font-size: 14px;
+    }
+      /*end section title*/
+  /*start section the study problem*/
+    .problem .coco{
+        align-items: center;
+    }
+    .problem img{
+        width:294px;
+        height:291px;
+        margin: 0 auto;
+      }
+      .problem .lead{
+        text-align: right;
+        font-weight: 300;
+        margin: 0 auto;
+        padding: 30px 30px;
+        line-height: 2em;
+        font-size: 16px;
+      }
+     /*end section the study problem*/
+   /*start Study methodology section*/
+   .tabs-section .tab-switch li{
+    margin-bottom: 10px;
+    padding: 20px 50px; 
+}
+   /*end Study methodology section*/
+}
+/*small screen*/
+@media(min-width:768px){
+    /*start section title*/
+   .title h2{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+      /*end section title*/
+    /*start section the study problem*/
+    .problem img{
+      width:100%;
+      height:284px;
+      }
+      .problem .lead{
+        text-align: right;
+        font-weight: 300;
+        margin: 20px  10px;
+        padding-left: 30px;
+        line-height: 2em;
+        font-size: 16px;
+      }
+     /*end section the study problem*/
+     .tabs-section .tab-switch li{
+      margin-bottom: 10px;
+      padding: 20px 20px; 
+  }
+  .tabs-section .tabs-content{
+    margin:40px 50px;
+  }
+     /*end Study methodology section*/
+}
+/*meduim screen*/
+@media(min-width:992px){
+    /*start section the study problem*/
+    .problem img{
+        width:100%;
+        height:381px;
+      }
+      .problem .lead{
+        text-align: right;
+        font-weight: 300;
+        margin: 20px 0 10px;
+        padding-left: 30px;
+        line-height: 2em;
+        font-size: 18px;
+      }
+     /*end section the study problem*/
+}
+/*large screen*/
+@media(min-width:1200px){
+    /*start section the study problem*/
+    .problem img{
+      width: 46em;
+      height:561px;
+      }
+      .problem .lead{
+        text-align: right;
+        font-weight: 300;
+        margin: 20px 0px 10px ;
+        padding-left: 40px;
+        line-height: 2em;
+        font-size: 20px;
+      }
+   /*end section the study problem*/
+   /*start Study methodology section*/      
+     .tabs-section .tab-switch li{
+      margin-left: 20px;
+      padding: 20px 70px; 
+  }
+   /*end Study methodology section*/
+
+}
+
+

@@ -1,0 +1,348 @@
+    *{
+    direction: rtl;
+    } 
+    body{
+        font-family: 'Cairo',"Droid Arabic Kufi", sans-serif;
+        color: #1c1124;
+    }  
+    /*.navbar*/
+   .navbar-inverse {
+         background-color: #1c1124;
+         border-color: #2b1938;
+    }
+    .navbar img{
+         margin-top: -15px;
+    }
+    .navbar-nav{
+        margin-top: 5px;
+     }
+    /*end navbar*/
+    /*start title section */
+    .our-title{
+        background: url(../img/title.jpeg) no-repeat center center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        min-height: 450px;
+    }
+    .our-title .title{
+        color:#fff;
+        background: rgba(28, 17, 36, 0.61);
+        min-height: 450px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    .our-title h1{
+        margin: 50px 0;
+        line-height: 64px;
+    }
+    .our-title p{
+        font-size: 19px;
+    }
+    /*end title section*/
+   /*start section Theoretical entrance*/
+   .entrance{
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+   .entrance .lead{
+      font-size: 20px;
+    }
+    .entrance h2{
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .entrance h2 span{
+
+    }
+    .entrance .person{
+        margin-bottom: 40px;
+    }
+    .entrance .subtitle{
+       margin-top: 30px;
+       color: #693e52;
+       text-align: center; 
+    }
+    /*end section Theoretical entrance*/
+   /*start section literature review*/
+      /*start style circle*/
+      .review{
+        background: #eef8fa;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .circle-note-progress {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        padding-left: 50px;
+
+    }
+    .circle-note-progress .circle {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        fill: none;
+        stroke-width: 2;
+        stroke-opacity: 0.8;
+        stroke: #df6c4f;
+
+    }
+    .circle-note-progress svg {
+        display: block;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+    .circle-note-progress .percent {
+        position: absolute;
+        top: 50%;
+        left: -10;
+        width: 100%;
+        height:7px;
+        line-height: 24px;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .circle-note-progress .percent .int {
+        padding-right: 20px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .circle-note-progress .legend {
+        padding-top: 10px;
+        padding-right: 15px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+     /*end style circle*/
+     .review .study{
+        margin-bottom: 40px;
+    }
+    .review h2{
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+   /*end section literature review*/
+   /*start section the study problem*/
+   .problem{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+  .problem .lead{
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 0.713em;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .problem h2{
+     font-weight: bold;
+     margin-bottom: 40px;
+   }
+   .problem img{
+     width:565px;
+     height:500px;
+   }
+     /*end section the study problem*/
+    /*start section importance & goals*/
+    .importance-goals{
+        background: #eef8fa;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .importance-goals .impgo{
+        border-top: .34rem solid #74b49b;
+        background:#ddf0e8 ;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .importance-goals h2{
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+    .importance-goals .impgo p{
+        font-size: 18px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    .importance-goals .impgo ul{
+        line-height: 250%;
+        font-size: 18px;
+        list-style-type: circle;
+        padding-bottom: 5px;
+    }
+    .importance-goals .col-divider{
+        width: 100%;
+        height: 1px;
+        background: #74b49b;
+        display: block;
+        margin: 20px 0;
+        position: relative;
+    }
+   /*end section importance & goals*/
+    /*start section Hypotheses*/
+    .Hypotheses{
+        background: url(../img/lap.jpg) no-repeat center center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        min-height: 450px;
+    }
+    .Hypotheses .Hypo{
+        color:#fff;
+        background: rgba(28, 17, 36, 0.555);
+        min-height: 450px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .Hypotheses .Hypoth{
+        color:#fff;
+        background: rgba(28, 17, 36, 0.562);
+        min-height: 200px;
+        border-top: .34rem solid rgba(39, 24, 49, 0.603);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+    }
+    .Hypotheses .Hypoth p {
+        line-height: 2em;
+        padding: 0 10px;
+    }
+    .Hypotheses .Hypoth span.glyphicon {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: rgb(126, 125, 125);
+    }
+    .Hypotheses h2{
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    .Hypotheses .col-divider{
+        width: 100%;
+        height: 1px;
+        background: #1c1124;
+        display: block;
+        margin: 20px 0;
+        position: relative;
+    }
+    /*end section Hypotheses*/
+     /*start Study methodology section*/
+     .tabs-section{
+        padding: 50px 20px;
+    }
+    .tabs-section .tab-switch li{
+        background-color: #693e52;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 20px;
+        padding: 20px 70px; 
+    }
+    .tabs-section .tab-switch li.selected,
+     .tabs-section .tab-switch li:hover{
+        background-color: #74b49b
+    }
+    .tabs-section .tabs-content div:not(.tab-one){
+        display: none;
+    }
+    .tabs-section .tabs-content{
+        margin-top: 40px;
+    }
+    .tabs-section .tabs-content h3{
+        margin-top: 20px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        margin-bottom: 10px;
+    }
+    .tabs-section .tabs-content p{
+        line-height: 1.8;
+        font-size: 18px;
+        color: #7e7e7e;
+        text-align: justify;
+    }
+    .tabs-section .tabs-content span{
+         font-weight: bold;
+         font-size: 20px;
+    }    
+    /*end Study methodology section*/
+    /*start Statistical methods section */
+    .Statistic-metho{
+        background: #eef8fa;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .Statistic-metho h2{
+          margin-bottom: 40px;
+          font-weight: bold;
+
+    }
+    .Statistic-metho .Correlation{
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .Statistic-metho .Correlation h3{
+        margin: 5px 0 15px;
+    }
+    .Statistic-metho .Correlation:hover .text{
+        -webkit-transform:scale(1.1,1.1)rotate(360deg);
+        -moz-transform:scale(1.1,1.1)otate(360deg);
+        -o-transform:scale(1.1,1.1)otate(360deg);
+        transform:scale(1.1,1.1)otate(360deg);
+    }
+    .Statistic-metho .Correlation .roci{
+        font-size: 30px;
+        font-weight: bold;
+        color: #666;
+        width: 100px;
+        height: 100px;
+        background: #ddf0e8 ;
+        border-radius: 50%;
+        line-height: 100px;
+        -webkit-transition-duration: 0.7s;
+        -moz-transition-duration: 0.7s;
+        -o-transition-duration: 0.7s;
+        transition-duration: 0.7s;
+    }
+    .Statistic-metho .Correlation .data{
+        line-height: 250%;
+        font-size: 18px;
+    }
+    /*end end Statistical methods section*/
+   /*start section footer*/
+   .footer .copyright{
+    background:#1c1124;
+    color: #aaa;
+    padding: 15px 0;
+    font-size: 18px;
+   }
+   .footer .copyright span{
+    color:#74b49b;
+   }
+   /*end section footer*/  
+   #scroll-top {
+        display: none;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 9999;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        line-height: 0;
+        text-align: center;
+        background-color: #693e52;    
+        color: #FFF;
+        cursor: pointer;
+  }
+  #scroll-top:hover {
+        background-color: #74b49b;
+  }
+   /*end scroll to top*/
